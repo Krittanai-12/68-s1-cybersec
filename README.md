@@ -13,5 +13,5 @@ cp env.example .env
 ### Database
 ```
 docker compose -f db.yaml up #Monitoring
-docker compose -f db.yaml up -d #Daemon
+docker compose -f db.yaml up -d #background
 ```
